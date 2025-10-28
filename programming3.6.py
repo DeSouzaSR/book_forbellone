@@ -4,9 +4,11 @@ the sides of a triangle. If so, determine whether they constitute an
 equilateral, isosceles, or scalene triangle.
 """
 
-a = int(input("Value of A:"))
-b = int(input("Value of B:"))
-c = int(input("Value of C:"))
+from sys import argv
+
+a = int(argv[1])
+b = int(argv[2])
+c = int(argv[3])
 
 if (a < b + c) and (b < a + c) and (c < a + b):
     if (a == b) and (b == c):
