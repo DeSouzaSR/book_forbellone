@@ -16,4 +16,5 @@ for i in range(10):
 media_des = sum(vet_des) /  10
 
 print(f'Média lido: {media_lido}\n')
-print(f'Média des: {media_des}\n')
+print(f'Média des5
+    : {media_des}\n')
